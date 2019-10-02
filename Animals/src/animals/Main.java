@@ -88,6 +88,6 @@ public class Main
 
         System.out.println("\n*** sorted alphabetically && mammals only ***\n");
         myList.sort((a1, a2) -> a1.getName().compareToIgnoreCase(a2.getName()));
-        printAnimals(myList, a -> a.reproduce() == "Live births");
+        printAnimals(myList, a -> a instanceof Mammal);
     }
 }
