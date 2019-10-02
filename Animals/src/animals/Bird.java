@@ -7,16 +7,19 @@ public class Bird extends Animal
         super(name, yearDiscovered);
     }
 
+    @Override
     public String move()
     {
         return "Fly";
     }
 
+    @Override
     public String breath()
     {
         return "Lungs";
     }
 
+    @Override
     public String reproduce()
     {
         return "Eggs";

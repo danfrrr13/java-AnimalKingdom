@@ -7,16 +7,19 @@ public class Fish extends Animal
         super(name, yearDiscovered);
     }
 
+    @Override
     public String move()
     {
         return "Swim";
     }
 
+    @Override
     public String breath()
     {
         return "Gills";
     }
 
+    @Override
     public String reproduce()
     {
         return "Eggs";
